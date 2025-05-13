@@ -5,14 +5,13 @@
 
 }
 ul{
-    box-sizing:border-box;
-    padding-left:2%;
+  box-sizing:border-box;
+  padding-left:2% !important;
 }
 ol{
-    box-sizing:border-box;
-    padding-left:2%;
+  box-sizing:border-box;
+  padding-left:2% !important;
 }
-
 .e1{
     height: 90px;
     width: 100%;
@@ -316,5 +315,13 @@ display: none;
 @media(max-width:1040px){
   #sec1in2{
     top: 100px;
+  }
+  ul{
+    box-sizing:border-box;
+    padding-left:5% !important;
+  }
+  ol{
+    box-sizing:border-box;
+    padding-left:5% !important;
   }
 }

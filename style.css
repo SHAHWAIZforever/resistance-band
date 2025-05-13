@@ -4,6 +4,14 @@
     font-family: 'Open sans';
 
 }
+ul{
+    box-sizing:border-box;
+    padding-left:2%;
+}
+ol{
+    box-sizing:border-box;
+    padding-left:2%;
+}
 
 .e1{
     height: 90px;

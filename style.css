@@ -304,10 +304,13 @@ footer p{
   border-bottom: 2px solid #F4F4F4;
   }
   #sec1mobin{
+display: none;
     background: white;
+    
   }
 
 @media(max-width:960px){
+
 #brbig{
 display: block;
 }
@@ -340,8 +343,8 @@ display: none;
   display: grid !important;
   place-items: center;
 }
-.block{
-  display: block ;
+#sec1mobin{
+  display: block;
 }
 }
 @media(max-width:1040px){

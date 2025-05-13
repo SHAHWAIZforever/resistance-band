@@ -4,6 +4,13 @@
     font-family: 'Open sans';
 
 }
+#section1{
+  max-width: 800px;
+  place-self: center;
+}
+button{
+  text-transform: uppercase;
+}
 ul{
   box-sizing:border-box;
   padding-left:2% !important;
@@ -13,14 +20,14 @@ ol{
   padding-left:2% !important;
 }
 .e1{
-    height: 90px;
+    height: 60px;
     width: 100%;
     background: #000;
     display:grid;
     place-items: center;
 }
 .e1 img{
-    height: 60px;
+    height: 40px;
 }
 #section1{
     box-sizing: border-box;
@@ -233,11 +240,17 @@ display: none;
 display: none;
 }
 
+
 #sec1in2{
-  position: sticky;
-  top:-10px;
-  bottom:0px
+
+ position: sticky;
+ top: -10px;
 }
+
+
+
+
+
 #sec1in2 p{
   transform: translateY(-10px);
 }
@@ -325,6 +338,12 @@ display: none;
 }
 #h1cen{
 text-align: center;
+line-height: 35px;
+
+}
+h1{
+  line-height: 35px;
+padding-bottom: 10px;
 }
 #brbig{
 display: block;
